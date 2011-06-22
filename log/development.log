@@ -1,0 +1,109 @@
+
+
+Processing ApplicationController#index (for 192.168.3.202 at 2011-06-22 15:51:16) [GET]
+  Parameters: {"_"=>"1308772275620"}
+
+ActionController::RoutingError (No route matches "/session/is_active" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.3.202 at 2011-06-22 16:36:19) [GET]
+  Parameters: {"_"=>"1308774978686"}
+
+ActionController::RoutingError (No route matches "/session/is_active" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-22 16:59:17) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ChatController#index (for 127.0.0.1 at 2011-06-22 17:05:56) [GET]
+Rendering chat/index
+Completed in 107ms (View: 106, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChatController#send_data (for 127.0.0.1 at 2011-06-22 17:14:52) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"nu1AJoJ9fAfQ+BuCViNuTA3vPJTS94cBSBUzPaFR+hY=", "chat_input"=>"kanth"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/chat/send_data]
+
+
+Processing ApplicationController#index (for 192.168.3.202 at 2011-06-22 17:21:22) [GET]
+  Parameters: {"_"=>"1308777681737"}
+
+ActionController::RoutingError (No route matches "/session/is_active" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.3.202 at 2011-06-22 17:36:22) [GET]
+  Parameters: {"_"=>"1308778582753"}
+
+ActionController::RoutingError (No route matches "/session/is_active" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ChatController#send_data (for 127.0.0.1 at 2011-06-22 18:02:52) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"nu1AJoJ9fAfQ+BuCViNuTA3vPJTS94cBSBUzPaFR+hY=", "chat_input"=>"ravi"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/chat/send_data]
+
+
+Processing ChatController#send_data (for 127.0.0.1 at 2011-06-22 18:03:10) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"nu1AJoJ9fAfQ+BuCViNuTA3vPJTS94cBSBUzPaFR+hY=", "chat_input"=>"bond"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/chat/send_data]
+
+
+Processing ChatController#index (for 127.0.0.1 at 2011-06-22 18:10:14) [GET]
+Rendering chat/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChatController#send_data (for 127.0.0.1 at 2011-06-22 18:10:22) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"ZDOWNhNXt98gJEGSQDwO1k+iMp0x6i1WeVHYUsm9xDA=", "chat_input"=>"ravi", "_"=>""}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/chat/send_data]
+
+
+Processing ChatController#send_data (for 127.0.0.1 at 2011-06-22 18:10:33) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"nu1AJoJ9fAfQ+BuCViNuTA3vPJTS94cBSBUzPaFR+hY=", "chat_input"=>"bond"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/chat/send_data]
+
+
+Processing ChatController#index (for 127.0.0.1 at 2011-06-22 18:11:29) [GET]
+Rendering chat/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChatController#send_data (for 127.0.0.1 at 2011-06-22 18:11:35) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"ciijIYKVT4HJIWWOvb7JD8ok7QMwVsOs2KUWo6UZb3U=", "chat_input"=>"sri rama", "_"=>""}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/chat/send_data]
+
+
+Processing ChatController#index (for 192.168.3.244 at 2011-06-22 18:14:48) [GET]
+Rendering chat/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://192.168.3.227/]
+
+
+Processing ChatController#send_data (for 192.168.3.244 at 2011-06-22 18:14:58) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"2YtZbuJkoZdRo32Arr2VIo3IxUlJpFQD39BI4yK74Uc=", "chat_input"=>"har har maha deva", "_"=>""}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.227/chat/send_data]
+
+
+Processing ChatController#index (for 192.168.3.244 at 2011-06-22 18:15:23) [GET]
+Rendering chat/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://192.168.3.227/]
+
+
+Processing ChatController#send_data (for 192.168.3.244 at 2011-06-22 18:15:28) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"2YtZbuJkoZdRo32Arr2VIo3IxUlJpFQD39BI4yK74Uc=", "chat_input"=>"jyd", "_"=>""}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.227/chat/send_data]
